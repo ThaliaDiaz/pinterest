@@ -4,7 +4,13 @@
     font-family: 'Source Sans Pro',sans-serif;
 }
 
-img{
+header{
+    position: fixed;
+}
+hr{
+    margin: 5px;
+}
+.menu li img {
     width: 40px;
     height: 40px;
 }
@@ -17,12 +23,19 @@ section{
     display: inline-block;
     width: 280px;
     height: 500px;
-    margin-top: 20px;
+    margin-top: 150px;
     margin-left: 20px;
     margin-right: 20px;
     border: 2px solid blue;
+    border-radius: 8px;
+}
+li .input-caja{
+    display: inline-block;
 }
 
+.input-caja{
+text-align: center;
+}
 .sub-menu{
     text-align: center !important;
 }
