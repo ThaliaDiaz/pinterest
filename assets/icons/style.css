@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?iggbeq');
-  src:  url('fonts/icomoon.eot?iggbeq#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?iggbeq') format('truetype'),
-    url('fonts/icomoon.woff?iggbeq') format('woff'),
-    url('fonts/icomoon.svg?iggbeq#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?h3rhdb');
+  src:  url('fonts/icomoon.eot?h3rhdb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?h3rhdb') format('truetype'),
+    url('fonts/icomoon.woff?h3rhdb') format('woff'),
+    url('fonts/icomoon.svg?h3rhdb#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,11 +24,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-upload:before {
-  content: "\e961";
+.icon-pushpin:before {
+  content: "\e946";
 }
-.icon-bubble2:before {
-  content: "\e96e";
+.icon-bubble:before {
+  content: "\e96b";
 }
 .icon-user:before {
   content: "\e971";
@@ -39,8 +39,8 @@
 .icon-menu:before {
   content: "\e9bd";
 }
-.icon-upload3:before {
-  content: "\e9c8";
+.icon-upload2:before {
+  content: "\e9c6";
 }
 .icon-cross:before {
   content: "\ea0f";
@@ -48,9 +48,15 @@
 .icon-checkmark:before {
   content: "\ea10";
 }
-.icon-ctrl:before {
-  content: "\ea50";
+.icon-circle-down:before {
+  content: "\ea43";
 }
 .icon-flickr:before {
   content: "\eaa3";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+.icon-pinterest2:before {
+  content: "\ead2";
 }
