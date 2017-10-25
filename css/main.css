@@ -41,18 +41,6 @@ section{
     display: block;
 }
 
-.menu li img {
-    width: 40px;
-    height: 40px;
-}
-
-.menu,.sub-menu{	
-    text-align: center !important;
-	padding: 10px 0;
-	width: 100%;
-	margin: 0;
-}
-
 header {
     background-color: white;
     position: fixed;
@@ -62,6 +50,8 @@ header {
 a{
     text-decoration: none;
 }
+
+/*Estilos para el menu del header*/
 .menu {
     border-bottom: 1px solid #d3d3d3;
     padding: 10px 0;
@@ -85,6 +75,17 @@ a{
     margin: 0 22px;
     width: 70%;
     padding: 10px;
+}
+.menu li img {
+    width: 40px;
+    height: 40px;
+}
+
+.menu,.sub-menu{	
+    text-align: center !important;
+	padding: 10px 0;
+	width: 100%;
+	margin: 0;
 }
 .menu .search i {
     color: black;
