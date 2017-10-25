@@ -10,10 +10,6 @@ header{
 	z-index:1000;
 	width:100%;
 }
-.menu li img {
-    width: 40px;
-    height: 40px;
-}
 
 li{
     list-style: none;
@@ -43,21 +39,9 @@ section{
     display: block;
 }
 
-.a-menu li a {
-    padding: 12;
-    color: #b5b5b5;
-    text-decoration: none;
-}
-.input-caja{
-display:inline-block;
-background-color:#EFEFEF;
-border-radius:5px;
-margin: 0 16px;
-width:70%;
-padding: 10px;
-}
-.caja-lupa{
-	width:85%;
+.menu li img {
+    width: 40px;
+    height: 40px;
 }
 
 .menu,.sub-menu{	
@@ -66,26 +50,55 @@ padding: 10px;
 	width: 100%;
 	margin: 0;
 }
-.menu{	
-	border-bottom:1px solid #d3d3d3;
-	display:inline-block;
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
-.menu li{
-	display:inline-block;
+a{
+    text-decoration: none;
 }
-.menu li i{
-	padding:0;
+.menu {
+    border-bottom: 1px solid #d3d3d3;
+    padding: 10px 0;
+    text-align: center;
 }
-.search,.times,.fa{
-	display:inline-block;
-	font:normal normal normal 14px/1 FontAwesome;
-	font-size:inherit;
-	text-rendering:auto;
-	webkit-font-smoothing:antialiased;
+
+.menu li {
+    display: inline-block;
+    text-decoration: none;
 }
-.caja-pins{
-	display:inline-block;
+
+.menu i {
+    color: #b5b5b5;
+    font-size: 22px;
+    
 }
+
+.menu .search {
+    background-color: #efefef;
+    border-radius: 5px;
+    margin: 0 22px;
+    width: 70%;
+    padding: 10px;
+}
+.menu .search i {
+    color: black;
+}
+.menu .search input {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    outline: 0;
+    width: 82%;
+}
+.menu .button {
+    padding: 12px;
+}
+
+/*************/
 .sub-menu .buttom p.ligth {
     background-color: rgba(150,110,75,.8);
     color: #fff;
