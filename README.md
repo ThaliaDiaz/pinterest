@@ -8,3 +8,5 @@ En este programa se busca replicar el maquetado de la página de pinterest
 
 * Html 5
 * Css 3
+
+![recursos](assets/imagenes/read.PNG)
