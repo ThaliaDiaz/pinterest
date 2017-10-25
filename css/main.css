@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro',sans-serif;
@@ -99,22 +100,47 @@ a{
     padding: 12px;
 }
 
-/*************/
-.sub-menu .buttom p.ligth {
-    background-color: rgba(150,110,75,.8);
-    color: #fff;
-    padding: 20px 25px;
-    font-weight: 700;
-    border-radius: 6px;
+/*Estilos para mi submenu*/
+
+.sub-menu {
+    text-align: center;
 }
-.sub-menu .buttom  {
-    background-color: rgba(194,149,110,.5);
+.sub-menu div {
     color: #fff;
     padding: 0px 25px;
     font-weight: 700;
     border-radius: 6px;
     display: inline-block;
 }
+.buttom1 {
+    background-color: #725E4F;
+}
+.buttom2 {
+    background-color: #AB8B6F;
+}
+.buttom3{
+    background-color: #8F7B66;
+}
+.buttom4 {
+    background-color: #8F6F53;
+}
+.buttom5 {
+    background-color: #96924B;
+}
+.buttom6{
+    background-color: #82745C;
+}
+.buttom7 {
+    background-color: #8F8584;
+}
+.buttom8 {
+    background-color: #9C775C;
+}
+.buttom9{
+    background-color: #B17E77;
+}
+
+/*Estilos para el cuerpo*/
 .imagenes {
     padding: 0 80px;
     margin-top: 150px;
